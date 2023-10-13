@@ -1,0 +1,14 @@
+import java.util.Scanner;
+class MajorMinorseniourCitizen {
+    public static void main(String[] args) {
+        int age;
+        Scanner s = new Scanner(System.in);
+        System.out.print("Enter your Age: ");
+        age = s.nextInt();
+        if (age>=55)
+            System.out.println("Seniour CitizenShip");
+        else if(age>=18)
+            System.out.println("Major");
+        else
+            System.out.println("Minor");
+    }
